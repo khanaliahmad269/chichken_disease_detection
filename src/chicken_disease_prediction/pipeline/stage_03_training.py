@@ -3,6 +3,7 @@ from chicken_disease_prediction.components.prepare__callbacks import PrepareCall
 from chicken_disease_prediction.components.training import Training
 from chicken_disease_prediction import logger
 import traceback
+from pathlib import Path
 STAGE_NAME = "Training"
 
 

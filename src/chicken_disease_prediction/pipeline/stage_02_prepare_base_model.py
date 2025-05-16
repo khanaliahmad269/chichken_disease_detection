@@ -1,7 +1,7 @@
 from chicken_disease_prediction.config.configuration import ConfigurationManager
 from chicken_disease_prediction.components.prepare_base_model import PrepareBaseModel 
 from chicken_disease_prediction import logger
- 
+from pathlib import Path
 
 STAGE_NAME= "Prepare Base Model "
 

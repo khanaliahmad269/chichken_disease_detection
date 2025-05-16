@@ -4,8 +4,7 @@ import zipfile
 from chicken_disease_prediction import logger
 from chicken_disease_prediction.utils.common import get_size
 from  chicken_disease_prediction.entity.config_entity import DataIngestionConfig
-
-
+from pathlib import Path
 class DataIngestion:
     def __init__(self,config: DataIngestionConfig):
         self.config= config

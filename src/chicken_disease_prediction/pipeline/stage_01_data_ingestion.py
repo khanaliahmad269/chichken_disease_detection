@@ -1,7 +1,7 @@
 from chicken_disease_prediction.config.configuration import ConfigurationManager
 from  chicken_disease_prediction.components.data_ingestion import DataIngestion
 from chicken_disease_prediction import logger 
-
+from pathlib import Path
 
 STAGE_NAME= " Data Ingestion Stage"
 
