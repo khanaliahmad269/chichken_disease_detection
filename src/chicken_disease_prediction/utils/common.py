@@ -32,7 +32,7 @@ def read_yaml(path_to_yaml: Path) -> ConfigBox:
             content=yaml.safe_load(yaml_file)
             logger.info(f"yaml file: {path_to_yaml} loaded Successfully")
             return ConfigBox(content)   
-    except BoxvalueError:
+    except BoxValueError:
         raise ValueError("yaml file is empty")
     except Exception as e:
         raise e
