@@ -14,3 +14,33 @@
 9. Update the dvc.yaml
 
 
+## How to run?
+
+## STEPS:
+
+Clone the repository
+
+https://github.com/khanaliahmad269/chichken_disease_detection.git
+
+## STEP 01- Create a conda environment after opening the repository
+```
+conda create -n chicken python=3.8 -y
+```
+```
+source activate base
+```
+```
+conda activate chicken
+```
+## STEP 02- install the requirements
+```
+pip install -r requirements.txt
+```
+# Finally run the following command
+```
+python app.py
+```
+NOW:
+```
+open up you local host and port
+```
